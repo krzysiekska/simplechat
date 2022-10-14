@@ -1,0 +1,72 @@
+/* The key to scrollbar */
+body{
+  overflow: hidden;
+}
+
+form{
+  display: flex;
+}
+
+input{
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 10px 5px;
+  appearance: none;
+}
+
+/* The key to animate.() */
+#messages{
+  height: 88vh;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+/* The key to full width */
+#message{
+  flex: 2;
+}
+/* Chat containers */
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+
+
+
+
+
+
+
+
